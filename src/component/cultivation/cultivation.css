@@ -1,0 +1,14 @@
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.step {
+  justify-content: center !important;
+  justify-self: center !important;
+  display: flex;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,49 @@
+body {
+  background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+}
+p {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.Card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 10px;
+  width: 20rem;
+  border: #a33737;
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.15) !important;
+}
+.card:hover {
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.card-body {
+  margin-top: 2rem !important ;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 !important;
+}
+.card-text {
+  font-size: 0.9rem;
+  padding: 1px 1.9rem;
+}
+.container-fluid .row {
+  padding-top: 3rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+.card-img {
+  transform: scale(1);
+  transition: 0.5s ease;
+}
+.card-img-.overflow {
+  transform: scale(1.3) !important;
+}
+.btn {
+  margin: 1px;
+}
+button:disabled {
+  color: rgb(17, 75, 75);
+}
